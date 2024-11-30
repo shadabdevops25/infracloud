@@ -12,7 +12,7 @@ spec:
         app: redis-cart
     spec:
       nodeSelector:
-        kubernetes.io/hostname: test-worker-2
+        kubernetes.io/hostname: qa-cluster-worker
       containers:
       - name: redis
         image: redis:alpine
